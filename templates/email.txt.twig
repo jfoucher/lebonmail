@@ -2,7 +2,7 @@
 
 {% for annonce in annonces %}
 {{ annonce.text|raw }} : {{ annonce.price|raw }}
-{{ annonce.location }}
+{{ annonce.location|raw }}
 {{ annonce.link }}
 
 {% endfor %}
