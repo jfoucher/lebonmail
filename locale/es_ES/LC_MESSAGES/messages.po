@@ -1,0 +1,77 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jonathan Foucher <jfoucher@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /tmp/cache/2c/44/a2bd22a974f211d160869ef874ed.php:21
+msgid "leboncoin.register.success.message"
+msgstr "En breve comenzará a recibir mensajes con los anuncios que corresponden a su busqueda. "
+
+#: /tmp/cache/2c/44/a2bd22a974f211d160869ef874ed.php:25
+msgid "leboncoin.register.success.title"
+msgstr "Inscription réussie"
+
+#: /tmp/cache/2c/44/a2bd22a974f211d160869ef874ed.php:27
+msgid "leboncoin.register.create.alert"
+msgstr "Cree su alerta email."
+
+#: /tmp/cache/2c/44/a2bd22a974f211d160869ef874ed.php:35
+msgid "leboncoin.register.email.label"
+msgstr "Email"
+
+#: /tmp/cache/2c/44/a2bd22a974f211d160869ef874ed.php:39
+msgid "leboncoin.register.email.placeholder"
+msgstr "vuestro@email.com"
+
+#: /tmp/cache/2c/44/a2bd22a974f211d160869ef874ed.php:46
+msgid "leboncoin.register.email.tip"
+msgstr "La dirección email donde desea recibir sus alertas."
+
+#: /tmp/cache/2c/44/a2bd22a974f211d160869ef874ed.php:56
+msgid "leboncoin.register.url.label"
+msgstr "URL"
+
+#: /tmp/cache/2c/44/a2bd22a974f211d160869ef874ed.php:61
+#: /tmp/cache/2c/44/a2bd22a974f211d160869ef874ed.php:75
+#: /tmp/cache/2c/44/a2bd22a974f211d160869ef874ed.php:77
+msgid "leboncoin.register.url.placeholder"
+msgstr "http://www.segundamano.es/alquiler-de-pisos-madrid/?th=1&od=1&qpe=7&st=u"
+
+#: /tmp/cache/2c/44/a2bd22a974f211d160869ef874ed.php:68
+msgid "leboncoin.register.url.tip"
+msgstr "Enlace hacia la página con el resultado de su búsqueda, por ejemplo."
+
+#: /tmp/cache/2c/44/a2bd22a974f211d160869ef874ed.php:84
+msgid "leboncoin.register.submit.button.text"
+msgstr "Inscripción"
+
+#: /tmp/cache/34/d3/0f0099385f54ae2ecf406aacdb05.php:64
+msgid "leboncoin.home.title"
+msgstr "Le Bon Mail"
+
+#: /tmp/cache/34/d3/0f0099385f54ae2ecf406aacdb05.php:69
+msgid "leboncoin.home.subtitle"
+msgstr "Alertes email para <a href=\"http://www.segundamano.es\">segundamano.es</a>"
+
+#: /tmp/cache/34/d3/0f0099385f54ae2ecf406aacdb05.php:76
+msgid "leboncoin.home.description"
+msgstr "Recibir un email en cuanto un anuncio correspondiente a sus criterios es publicado en ."
+
+#: /tmp/cache/57/c8/0fafc583752edfe7cb0aa46079fc.php:20
+msgid "leboncoin.remove.success.title"
+msgstr "Suppression réussie"
+
+#: /tmp/cache/57/c8/0fafc583752edfe7cb0aa46079fc.php:25
+msgid "leboncoin.remove.success.message"
+msgstr "Su búsqueda ha sido suprimida con éxito de nuestra base de datos, no recibirá más mensajes de alerta de nuestra parte"
+
+#: /tmp/cache/a7/f5/8ba94ee5569050db39c0f049892b.php:30
+msgid "fr"
+msgstr "fr"
+

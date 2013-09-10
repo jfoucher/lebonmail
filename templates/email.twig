@@ -1,0 +1,188 @@
+<html>
+<head>
+
+    <title>LeBonMail.com</title>
+
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <style type="text/css">
+        @import url("http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic");
+        body{
+            font-family: "Lato", sans-serif;
+        }
+        .list a {
+            color: #cc0000;
+            text-transform: uppercase;
+            font-family: Verdana;
+            font-size: 11px;
+            text-decoration: none;
+        }
+
+    </style>
+
+</head>
+<body marginheight="0" topmargin="0" marginwidth="0" bgcolor="#ffffff" leftmargin="0">
+
+<table cellspacing="0" border="0"
+       style="font-family: Lato, sans-serif;background-color: #ffffff;" cellpadding="0"
+       width="100%">
+
+    <tr>
+        <td valign="top">&nbsp;</td>
+    </tr>
+    <tr>
+
+
+        <td valign="top">
+
+            <table cellspacing="0" border="0" align="center" cellpadding="0" width="450">
+                <tr>
+                    <td valign="top">
+                        <!-- header -->
+                        <table cellspacing="0" border="0" height="97" cellpadding="0" width="450">
+
+                            <tr>
+                                <td class="main-title" height="13" valign="top" align="center" colspan="2">
+                                    <a href="http://lebonmail.com">
+                                        <img src="http://lebonmail.com/assets/images/lebonmail.png" alt="Le Bon Mail" width="225" />
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- / header -->
+                    </td>
+                </tr>
+
+                <tr>
+                    <td valign="middle" align="center" colspan="2">
+                        <a href="{{ remove_link }}" target="_blank" style="border: none;color: white;font-size: 19px;text-decoration: none;background-color: #1abc9c;text-align: center;padding: 7px 15px 8px 15px;text-align: center;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;">
+                            {{ 'lebonmail.email.remove.link.text'|trans }} {#Ne plus recevoir ces annonces#}
+                        </a>
+                    </td>
+                </tr>
+                <tr><td>&nbsp;<br></td></tr>
+                <tr><td>&nbsp;<br></td></tr>
+                <tr>
+                    <td align="center">
+                        <!-- content -->
+                        <table cellspacing="0" border="0" cellpadding="0" width="450">
+
+                            <tr>
+                                <td class="article-title" valign="middle" bgcolor="#E67E22" align="center"
+                                    style="padding: 1em;background: #E67E22;
+                                margin: 0;" width="450" colspan="2">
+                                    <a href="{{link}}" style="font-size:1.5em;font-weight:bold; color: #FFFFFF;text-decoration:none;display:block;">
+                                        {{ 'lebonmail.email.last.ad.link.text'|trans }}{# derniere annonce #}
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="content-copy" bgcolor="#ffffff" valign="top" style="background: #ffffff;"
+                                    colspan="2">
+                                    <table width="100%" cellspacing="0" border="0" align="center" cellpadding="0">
+                                        {% set colors = ['F1C40F', '9B59B6', '34495e', '1ABC9C', '27AE60'] %}
+                                        {% set i = 0 %}
+                                        {% for annonce in annonces %}
+                                            {% if i >= colors|length %}
+                                                {% set i = 0 %}
+                                            {% endif %}
+                                            {% set color = colors[i] %}
+
+                                            <tr style="background: #ffffff;">
+                                                <td colspan="2">
+                                                    &nbsp;
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="color: #fff;text-align:center;background: #{{ color }};">
+                                                    <a href="{{ annonce.link }}"
+                                                       title="{{ 'lebonmail.email.see.on.site.title'|trans }}{#Voir cette annonce sur leboncoin.fr#}">
+                                                        <img src="{{ annonce.imgsrc }}" alt="{{ annonce.text|escape }}"
+                                                             width="100%"/>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr style="background: #{{ color }};color: #FFFFFF;">
+                                                <td align="center" style="text-align:center">
+                                                    <br>
+                                                    <a style="font-family: sans-serif; color: #FFFFFF;font-size:16px; text-decoration:none;"
+                                                       href="{{ annonce.link }}"
+                                                       title="{{ 'lebonmail.email.see.on.site.title'|trans }}">
+                                                        {{ annonce.text|raw }}
+                                                    </a>
+                                                    <br/>
+                                                    <span style="font-weight: bold; font-family: sans-serif; font-size:18px; text-decoration:none; color: #FFFFFF;">{{ annonce.price|raw }}</span>
+                                                    <br/>
+                                                    <span style="font-family: sans-serif; font-size:16px; text-decoration:none; color: #FFFFFF;">{{ annonce.location|raw }}</span>
+                                                    <br/><br/>
+
+                                                </td>
+                                            </tr>
+                                            {% set i = i + 1 %}
+                                        {% endfor %}
+                                    </table>
+                                </td>
+                            </tr>
+
+
+                        </table>
+                        <!--  / content -->
+                    </td>
+                </tr>
+                <tr>
+                    <td height="50"></td>
+                </tr>
+                <tr>
+                    <td valign="top" width="450">
+                        <!-- footer -->
+                        <table cellspacing="0" border="0" height="202" cellpadding="0" width="450">
+
+                            <tr>
+                                <td height="20" valign="top" width="450" colspan="2">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td valign="top">
+                                    <table cellspacing="0" border="0" width="450" cellpadding="0">
+                                        <tr>
+                                            <td class="unsubscribe" valign="top"
+                                                style="padding: 20px; color: #7b7f84; font-size: 14px; font-family: sans-serif; line-height: 20px;">{{ 'lebonmail.email.footer.text'|trans|raw }} <br />
+
+                                                {% trans %}
+                                                Si vous ne voulez plus les recevoir, vous pouvez vous
+                                                <a href="{{ remove_link }}"
+                                                   style="color: #ff7f0f; text-decoration: none;">d&eacute;sinscrire</a>.
+                                                {% endtrans %}
+                                            </td>
+
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td height="20" valign="top" width="4500" colspan="2">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="copyright" height="100" align="center" valign="top"
+                                    style="padding: 0 20px; color: #7b7f84; font-family: Verdana; font-size: 10px; text-transform: uppercase; line-height: 20px;"
+                                    width="450" colspan="2">
+
+                                    &copy; <a href="http://6px.fr" style="color: #ff7f0f; text-decoration: none;">Six
+                                    Pixels</a> 2012 - <a href="mailto:info@6px.eu"
+                                                         style="color: #ff7f0f; text-decoration: none;">info@6px.eu</a>
+                                    - 06 95 65 55 65
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- / end footer -->
+                    </td>
+                </tr>
+            </table>
+
+        </td>
+
+    </tr>
+
+</table>
+
+</body>
+</html>

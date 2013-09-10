@@ -1,0 +1,56 @@
+<div class="login">
+    <div class="login-screen">
+        <div class="login-icon">
+            <img src="/assets/images/login/icon.png" alt="{{ 'leboncoin.register.create.alert.alt'|trans }}">
+            <h4>{{ 'leboncoin.register.create.alert'|trans|raw }}</h4>
+        </div>
+
+        <div class="login-form" id="register-wrapper" style="top:43px;">
+            <form id="register">
+                <fieldset>
+                    <label for="email">{{ 'leboncoin.register.email.label'|trans }}</label>
+                    <div class="control-group email">
+                        <input class="login-field" required="required" value="" placeholder="{{ 'leboncoin.register.email.placeholder'|trans }}" id="email" type="email" required="required" data-error-text="{{ 'Veuillez entrer une adresse email valide'|trans }}">
+                        <span class="login-field-icon fui-mail-16"></span>
+                        <span class="help-block">{{ 'leboncoin.register.email.tip'|trans }}</span>
+                    </div>
+                    <label for="url">{{ 'leboncoin.register.url.label'|trans }}</label>
+
+                    <div class="control-group url">
+                        <input class="login-field"  value="" placeholder="{{ 'leboncoin.register.url.placeholder'|trans }}" required="required" id="url" type="url" data-error-text="{{ 'Veuillez entrer une URL valide (avec http://)'|trans }}">
+                        <span class="login-field-icon fui-location-16"></span>
+                        <span class="help-block">
+                            {{ 'leboncoin.register.url.tip'|trans }} <a href="{{ 'leboncoin.register.url.placeholder'|trans }}">{{ 'leboncoin.register.url.placeholder.small'|trans }}</a>
+                        </span>
+                    </div>
+
+                </fieldset>
+                <fieldset>
+
+                    <button class="btn btn-primary btn-large btn-block fui-checkmark-24" type="submit">
+                        {{ 'leboncoin.register.submit.button.text'|trans }}
+                    </button>
+                </fieldset>
+            </form>
+        </div>
+
+
+
+
+        <div id="success" class='login-form' style="top:500px;display:none">
+
+                <h3>{{ 'leboncoin.register.success.title'|trans }}</h3>
+                <p style="margin-top: 1em">
+                    {{ 'leboncoin.register.success.message'|trans|raw }}
+                    <br />
+
+                </p>
+
+
+        </div>
+
+
+    </div>
+</div>
+
+

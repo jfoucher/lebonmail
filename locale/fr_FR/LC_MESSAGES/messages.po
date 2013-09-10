@@ -1,0 +1,283 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2013-05-31 02:24+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jonathan Foucher <jfoucher@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /tmp/cache\n"
+
+#: /tmp/cache/08/09/6c470bcccd530f7d210eb9ce7150.php:54
+msgid "Stats"
+msgstr "Stats"
+
+#: /tmp/cache/0c/6e/da0f97bef33567a4c05f1de8b4f5.php:82
+msgid "lebonmail.email.remove.link.text"
+msgstr "Ne plus recevoir ces annonces"
+
+#: /tmp/cache/0c/6e/da0f97bef33567a4c05f1de8b4f5.php:106
+msgid "lebonmail.email.last.ad.link.text"
+msgstr "Dernières annonces"
+
+#: /tmp/cache/0c/6e/da0f97bef33567a4c05f1de8b4f5.php:163
+#: /tmp/cache/0c/6e/da0f97bef33567a4c05f1de8b4f5.php:192
+msgid "lebonmail.email.see.on.site.title"
+msgstr "Voir sur leboncoin.fr"
+
+#: /tmp/cache/0c/6e/da0f97bef33567a4c05f1de8b4f5.php:254
+msgid "lebonmail.email.footer.text"
+msgstr ""
+"Vous recevez cet email parce que vous vous etes inscrit pour "
+"recevoir                                                des alertes "
+"sur                                                <a href=\"http://"
+"lebonmail.com\"                                                   style="
+"\"color: #ff7f0f; text-decoration: none;\">lebonmail.com</"
+"a>                                             "
+
+#: /tmp/cache/0c/6e/da0f97bef33567a4c05f1de8b4f5.php:259
+msgid ""
+"Si vous ne voulez plus les recevoir, vous pouvez vous\n"
+"                                                <a href=\"%remove_link%\"\n"
+"                                                   style=\"color: #ff7f0f; "
+"text-decoration: none;\">d&eacute;sinscrire</a>."
+msgstr ""
+"Si vous ne voulez plus les recevoir, vous pouvez vous\n"
+"                                                <a href=\"%remove_link%\"\n"
+"                                                   style=\"color: #ff7f0f; "
+"text-decoration: none;\">d&eacute;sinscrire</a>."
+
+#: /tmp/cache/53/7b/dafcf30c481640a714597f6b297b.php:57
+#: /tmp/cache/e6/78/c9eeee3edeb34b151e6e52287ea2.php:35
+msgid "leboncoin.meta.title"
+msgstr "Le Bon Mail"
+
+#: /tmp/cache/53/7b/dafcf30c481640a714597f6b297b.php:61
+#: /tmp/cache/53/7b/dafcf30c481640a714597f6b297b.php:80
+#: /tmp/cache/e6/78/c9eeee3edeb34b151e6e52287ea2.php:39
+#: /tmp/cache/e6/78/c9eeee3edeb34b151e6e52287ea2.php:58
+msgid "leboncoin.meta.description"
+msgstr ""
+"Recevez un email dès qu'une annonce correspondant à vos critères est publiée "
+"sur leboncoin.fr"
+
+#: /tmp/cache/53/7b/dafcf30c481640a714597f6b297b.php:100
+#: /tmp/cache/e6/78/c9eeee3edeb34b151e6e52287ea2.php:77
+msgid "leboncoin.home.title"
+msgstr "Le Bon Mail"
+
+#: /tmp/cache/53/7b/dafcf30c481640a714597f6b297b.php:106
+msgid "leboncoin.home.subtitle"
+msgstr "Alertes email pour <a href=\"http://leboncoin.fr\">leboncoin.fr</a>"
+
+#: /tmp/cache/53/7b/dafcf30c481640a714597f6b297b.php:114
+msgid "leboncoin.home.description"
+msgstr ""
+"Recevez un email dès qu'une annonce correspondant à vos critères est publiée "
+"sur leboncoin.fr"
+
+#: /tmp/cache/9a/1f/d60f2b1afb33602de38250dff4da.php:28
+msgid "leboncoin.footer.share.title"
+msgstr "Partager"
+
+#: /tmp/cache/9a/1f/d60f2b1afb33602de38250dff4da.php:32
+msgid "leboncoin.footer.share.line1"
+msgstr ""
+"Vos amis vous seront reconnaissants de leur avoir fait découvrir cet outil"
+
+#: /tmp/cache/9a/1f/d60f2b1afb33602de38250dff4da.php:37
+msgid "leboncoin.footer.share.line2"
+msgstr "N'hésitez pas à partager avec les boutons ci-dessous"
+
+#: /tmp/cache/9a/1f/d60f2b1afb33602de38250dff4da.php:42
+msgid "leboncoin.footer.share.line3"
+msgstr ""
+"Ou dites leur simplement de visiter <a href=\"http://lebonmail.com/\" target="
+"\"_blank\">lebonmail.com</a>"
+
+#: /tmp/cache/9a/1f/d60f2b1afb33602de38250dff4da.php:52
+msgid "leboncoin.locale"
+msgstr "fr"
+
+#: /tmp/cache/9a/1f/d60f2b1afb33602de38250dff4da.php:54
+msgid "leboncoin.footer.tweet.label"
+msgstr "Tweeter"
+
+#: /tmp/cache/9a/1f/d60f2b1afb33602de38250dff4da.php:87
+msgid "leboncoin.footer.twitter.title"
+msgstr "Twitter"
+
+#: /tmp/cache/9a/1f/d60f2b1afb33602de38250dff4da.php:96
+msgid "leboncoin.footer.links.title"
+msgstr "Liens"
+
+#: /tmp/cache/9a/1f/d60f2b1afb33602de38250dff4da.php:101
+msgid "leboncoin.footer.links.contact_developper"
+msgstr "Contacter le créateur"
+
+#: /tmp/cache/9a/1f/d60f2b1afb33602de38250dff4da.php:106
+msgid "leboncoin.footer.links.follow_developper"
+msgstr "Suivre sur Twitter"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:24
+#: /tmp/cache/e2/0a/5bb7f85a6e62e92a8319f166d8e0.php:26
+#: /tmp/cache/fd/f1/8dca56212ae60b641cdbf4f71a3d.php:24
+msgid "leboncoin.register.create.alert.alt"
+msgstr "Créez votre alerte email"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:28
+#: /tmp/cache/e2/0a/5bb7f85a6e62e92a8319f166d8e0.php:30
+#: /tmp/cache/fd/f1/8dca56212ae60b641cdbf4f71a3d.php:28
+msgid "leboncoin.register.create.alert"
+msgstr "Créez votre <small>alerte email</small>"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:37
+msgid "leboncoin.register.email.label"
+msgstr "Email"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:42
+msgid "leboncoin.register.email.placeholder"
+msgstr "votre@email.com"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:44
+msgid "Veuillez entrer une adresse email valide"
+msgstr "Veuillez entrer une adresse email valide"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:49
+msgid "leboncoin.register.email.tip"
+msgstr "L'adresse email où vous souhaitez recevoir vos alertes"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:54
+msgid "leboncoin.register.url.label"
+msgstr "URL"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:60
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:70
+msgid "leboncoin.register.url.placeholder"
+msgstr ""
+"http://www.leboncoin.fr/annonces/offres/midi_pyrenees/?f=a&th=1&q=serre"
+"+tunnel"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:62
+msgid "Veuillez entrer une URL valide (avec http://)"
+msgstr "Veuillez entrer une URL valide (avec http://)"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:68
+msgid "leboncoin.register.url.tip"
+msgstr "Lien vers la page de résultat de votre recherche, par exemple"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:72
+msgid "leboncoin.register.url.placeholder.small"
+msgstr "http://www.leboncoin.fr/annonces/offr…"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:97
+msgid "leboncoin.register.submit.button.text"
+msgstr "Inscription"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:110
+msgid "leboncoin.register.buy.title"
+msgstr "Inscription requise"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:114
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:189
+msgid "leboncoin.register.buy.text.search.singular"
+msgstr "recherche"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:116
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:191
+msgid "leboncoin.register.buy.text.search.plural"
+msgstr "recherches"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:120
+msgid "leboncoin.register.buy.text"
+msgstr ""
+"Vous devez vous inscrire pour recevoir des alertes pour plus de %num% %search"
+"%. Créez des <strong>alertes illimitées</strong> pour seulement 4,90€ par "
+"mois.<br> Obtenez <strong>deux mois gratuits</strong> si vous vous inscrivez "
+"pour une année dès maintenant.<br> <small>Sinon, supprimez une ou plusieurs "
+"recherches grace au bouton présent dans chaque message que nous vous "
+"envoyons</small>"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:137
+msgid "leboncoin.monthly.payment.price.label"
+msgstr "Paiement Mensuel: %monthly_price%€"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:141
+msgid "leboncoin.yearly.payment.price.labe"
+msgstr "Paiement annuel : %yearly_price%€"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:165
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:244
+msgid "Subscribe"
+msgstr "Inscription"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:170
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:249
+msgid "or"
+msgstr "ou"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:174
+msgid "Cancel"
+msgstr "Annulation"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:185
+msgid "leboncoin.register.option.buy.title"
+msgstr "Inscription recommandée"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:195
+msgid "leboncoin.register.option.buy.text"
+msgstr ""
+"Inscrivez vous pour avoir des <strong>mises à jour plus fréquentes</strong> "
+"(toutes les heures au lieu de tous les jours), des <strong>alertes "
+"illimitées</strong> pour seulement 4,90€ par mois.<br> Obtenez <strong>deux "
+"mois gratuits</strong> si vous vous inscrivez pour une année dès maintenant."
+"<br> <small>Sinon, continuez la création de votre recherche gratuite</small>"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:216
+msgid "Paiement mensuel : %monthly_price%&euro;"
+msgstr "Paiement mensuel : %monthly_price%&euro;"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:220
+msgid "Paiement annuel : %yearly_price%&euro;"
+msgstr "Paiement annuel : %yearly_price%&euro;"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:253
+msgid "Create my free search"
+msgstr "Créer ma recherche gratuite"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:264
+#: /tmp/cache/fd/f1/8dca56212ae60b641cdbf4f71a3d.php:36
+msgid "leboncoin.register.success.title"
+msgstr "Inscription réussie"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:269
+#: /tmp/cache/fd/f1/8dca56212ae60b641cdbf4f71a3d.php:41
+msgid "leboncoin.register.success.message"
+msgstr ""
+"Vous allez bientôt commencer à recevoir des emails pour les annonces "
+"correspondant à votre recherche.<br>Vous pouvez maintenant fermer cette page."
+"<br>Pour toute question ou suggestion, vous pouvez <a href=\"mailto:"
+"jfoucher@6px.eu\">contacter le dévelopeur directement</a>."
+
+#: /tmp/cache/e2/0a/5bb7f85a6e62e92a8319f166d8e0.php:38
+msgid "leboncoin.remove.success.title"
+msgstr "Suppression réussie"
+
+#: /tmp/cache/e2/0a/5bb7f85a6e62e92a8319f166d8e0.php:43
+msgid "leboncoin.remove.success.message"
+msgstr ""
+"Votre recherche a bien été supprimée de notre base de données, vous ne "
+"recevrez plus d'alertes la concernant"
+
+#~ msgid "leboncoin.register.newsletter.registration.label"
+#~ msgstr "Inscription à la newsletter"
+
+#~ msgid "fr"
+#~ msgstr "fr"
+
+#~ msgid "leboncoin.register.inter.confirm"
+#~ msgstr "Bien noté !"

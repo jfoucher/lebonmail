@@ -1,0 +1,18 @@
+*** Le Bon Mail ***
+
+{% for annonce in annonces %}
+{{ annonce.text|raw }} : {{ annonce.price|raw }}
+{{ annonce.location }}
+{{ annonce.link }}
+
+{% endfor %}
+
+Vous recevez cet email parce que vous vous etes inscrit pour recevoir des alertes sur lebonmail.com
+
+Si vous ne voulez plus les recevoir, vous pouvez vous désinscrire :
+{{ remove_link }}
+
+--
+© Six Pixels (http://6px.fr) 2012
+info@6px.eu
+06 95 65 55 65

@@ -1,0 +1,15 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Senior developer: Jonathan Foucher
+  Site: http://jfoucher.com
+  Twitter: http://twitter.com/jfoucher
+  Location: France
+
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery
+  Software: Slim PHP, simplehtmldom

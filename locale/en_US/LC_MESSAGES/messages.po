@@ -1,0 +1,273 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2013-05-31 02:24+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jonathan Foucher <jfoucher@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /tmp/cache\n"
+
+#: /tmp/cache/08/09/6c470bcccd530f7d210eb9ce7150.php:54
+msgid "Stats"
+msgstr "Stats"
+
+#: /tmp/cache/0c/6e/da0f97bef33567a4c05f1de8b4f5.php:82
+msgid "lebonmail.email.remove.link.text"
+msgstr "Stop receiving these classifieds"
+
+#: /tmp/cache/0c/6e/da0f97bef33567a4c05f1de8b4f5.php:106
+msgid "lebonmail.email.last.ad.link.text"
+msgstr "Latest classifieds"
+
+#: /tmp/cache/0c/6e/da0f97bef33567a4c05f1de8b4f5.php:163
+#: /tmp/cache/0c/6e/da0f97bef33567a4c05f1de8b4f5.php:192
+msgid "lebonmail.email.see.on.site.title"
+msgstr "See on Dinkos.com.au"
+
+#: /tmp/cache/0c/6e/da0f97bef33567a4c05f1de8b4f5.php:254
+msgid "lebonmail.email.footer.text"
+msgstr ""
+"You are receiving this email because you subscribed to get classifieds on <a "
+"href=\"http://lebonmail.com\" style=\"color: #ff7f0f; text-decoration: none;"
+"\">lebonmail.com</a>             "
+
+#: /tmp/cache/0c/6e/da0f97bef33567a4c05f1de8b4f5.php:259
+msgid ""
+"Si vous ne voulez plus les recevoir, vous pouvez vous\n"
+"                                                <a href=\"%remove_link%\"\n"
+"                                                   style=\"color: #ff7f0f; "
+"text-decoration: none;\">d&eacute;sinscrire</a>."
+msgstr ""
+"If you want to stop receiving them you can \n"
+"                                                <a href=\"%remove_link%\"\n"
+"                                                   style=\"color: #ff7f0f; "
+"text-decoration: none;\">unsubscribe</a>."
+
+#: /tmp/cache/53/7b/dafcf30c481640a714597f6b297b.php:57
+#: /tmp/cache/e6/78/c9eeee3edeb34b151e6e52287ea2.php:35
+msgid "leboncoin.meta.title"
+msgstr "Le Bon Mail"
+
+#: /tmp/cache/53/7b/dafcf30c481640a714597f6b297b.php:61
+#: /tmp/cache/53/7b/dafcf30c481640a714597f6b297b.php:80
+#: /tmp/cache/e6/78/c9eeee3edeb34b151e6e52287ea2.php:39
+#: /tmp/cache/e6/78/c9eeee3edeb34b151e6e52287ea2.php:58
+msgid "leboncoin.meta.description"
+msgstr ""
+"Get an email as soon as a new classified corresponding to your search is "
+"published"
+
+#: /tmp/cache/53/7b/dafcf30c481640a714597f6b297b.php:100
+#: /tmp/cache/e6/78/c9eeee3edeb34b151e6e52287ea2.php:77
+msgid "leboncoin.home.title"
+msgstr "Le Bon Mail"
+
+#: /tmp/cache/53/7b/dafcf30c481640a714597f6b297b.php:106
+msgid "leboncoin.home.subtitle"
+msgstr "Email alerts for <a href=\"http://dinkos.com.au\">dinkos.com.au</a>"
+
+#: /tmp/cache/53/7b/dafcf30c481640a714597f6b297b.php:114
+msgid "leboncoin.home.description"
+msgstr ""
+"Get an email as soon as a new classified corresponding to your search is "
+"published"
+
+#: /tmp/cache/9a/1f/d60f2b1afb33602de38250dff4da.php:28
+msgid "leboncoin.footer.share.title"
+msgstr "Share"
+
+#: /tmp/cache/9a/1f/d60f2b1afb33602de38250dff4da.php:32
+msgid "leboncoin.footer.share.line1"
+msgstr "Your friends will be grateful to you if you show them this tool."
+
+#: /tmp/cache/9a/1f/d60f2b1afb33602de38250dff4da.php:37
+msgid "leboncoin.footer.share.line2"
+msgstr "Don't hesitate to share using the buttons below."
+
+#: /tmp/cache/9a/1f/d60f2b1afb33602de38250dff4da.php:42
+msgid "leboncoin.footer.share.line3"
+msgstr ""
+"Or just tell them to visit: <a href=\"http://lebonmail.com/\" target=\"_blank"
+"\">lebonmail.com</a>"
+
+#: /tmp/cache/9a/1f/d60f2b1afb33602de38250dff4da.php:52
+msgid "leboncoin.locale"
+msgstr "en"
+
+#: /tmp/cache/9a/1f/d60f2b1afb33602de38250dff4da.php:54
+msgid "leboncoin.footer.tweet.label"
+msgstr "Tweet"
+
+#: /tmp/cache/9a/1f/d60f2b1afb33602de38250dff4da.php:87
+msgid "leboncoin.footer.twitter.title"
+msgstr "Twitter"
+
+#: /tmp/cache/9a/1f/d60f2b1afb33602de38250dff4da.php:96
+msgid "leboncoin.footer.links.title"
+msgstr "Links"
+
+#: /tmp/cache/9a/1f/d60f2b1afb33602de38250dff4da.php:101
+msgid "leboncoin.footer.links.contact_developper"
+msgstr "Contact the developer"
+
+#: /tmp/cache/9a/1f/d60f2b1afb33602de38250dff4da.php:106
+msgid "leboncoin.footer.links.follow_developper"
+msgstr "Follow the developer on Twitter"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:24
+#: /tmp/cache/e2/0a/5bb7f85a6e62e92a8319f166d8e0.php:26
+#: /tmp/cache/fd/f1/8dca56212ae60b641cdbf4f71a3d.php:24
+msgid "leboncoin.register.create.alert.alt"
+msgstr "Create your email alert"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:28
+#: /tmp/cache/e2/0a/5bb7f85a6e62e92a8319f166d8e0.php:30
+#: /tmp/cache/fd/f1/8dca56212ae60b641cdbf4f71a3d.php:28
+msgid "leboncoin.register.create.alert"
+msgstr "Create your <small>email alert</small>"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:37
+msgid "leboncoin.register.email.label"
+msgstr "Email"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:42
+msgid "leboncoin.register.email.placeholder"
+msgstr "your@email.com"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:44
+msgid "Veuillez entrer une adresse email valide"
+msgstr "Please enter a valid email address"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:49
+msgid "leboncoin.register.email.tip"
+msgstr "The email address where you want to get your alerts"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:54
+msgid "leboncoin.register.url.label"
+msgstr "URL"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:60
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:70
+msgid "leboncoin.register.url.placeholder"
+msgstr "http://www.dinkos.com.au/li?ca=5_s&th=1&q=&cg=1040&w=1"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:62
+msgid "Veuillez entrer une URL valide (avec http://)"
+msgstr "Please enter a valid URL (with http://)"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:68
+msgid "leboncoin.register.url.tip"
+msgstr "Link to the search results page, for example"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:72
+msgid "leboncoin.register.url.placeholder.small"
+msgstr "http://www.dinkos.com.au/li?ca=5_s&th=1&q=&cg=1040&w=1"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:97
+msgid "leboncoin.register.submit.button.text"
+msgstr "Sign up"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:110
+msgid "leboncoin.register.buy.title"
+msgstr "Registration required"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:114
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:189
+msgid "leboncoin.register.buy.text.search.singular"
+msgstr "search"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:116
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:191
+msgid "leboncoin.register.buy.text.search.plural"
+msgstr "searches"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:120
+msgid "leboncoin.register.buy.text"
+msgstr ""
+"You will need to register for an account to create more than %num% %search%. "
+"Create <strong>unlimited searches</strong> for only 4.90€ per month. <br>Get "
+"<strong>two months free</strong> if you subscribe for a whole year."
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:137
+msgid "leboncoin.monthly.payment.price.label"
+msgstr "Monthly payment: €%monthly_price%"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:141
+msgid "leboncoin.yearly.payment.price.labe"
+msgstr "Yearly payment: €%yearly_price%"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:165
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:244
+msgid "Subscribe"
+msgstr "Subscribe"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:170
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:249
+msgid "or"
+msgstr "or"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:174
+msgid "Cancel"
+msgstr "Cancel"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:185
+msgid "leboncoin.register.option.buy.title"
+msgstr "Registration recommended"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:195
+msgid "leboncoin.register.option.buy.text"
+msgstr ""
+"Create <strong>unlimited searches</strong> and get more frequent updates "
+"(every hour instead of once a day) for only 4.90€ per month. <br>Get "
+"<strong>two months free</strong> if you subscribe for a whole year."
+"<br><small>Otherwise, proceed to your free search </small>"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:216
+msgid "Paiement mensuel : %monthly_price%&euro;"
+msgstr "Monthly payment: &euro;%monthly_price%"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:220
+msgid "Paiement annuel : %yearly_price%&euro;"
+msgstr "Yearly payment: &euro;%yearly_price%"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:253
+msgid "Create my free search"
+msgstr "Create my free search"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:264
+#: /tmp/cache/fd/f1/8dca56212ae60b641cdbf4f71a3d.php:36
+msgid "leboncoin.register.success.title"
+msgstr "Sign up successful"
+
+#: /tmp/cache/cd/48/159988d34f9cb9f53c017f9dfeb6.php:269
+#: /tmp/cache/fd/f1/8dca56212ae60b641cdbf4f71a3d.php:41
+msgid "leboncoin.register.success.message"
+msgstr ""
+"You will start receiving alerts for your search shortly.<br>Please consider "
+"clicking on the link below to buy products that may interest you, as this "
+"will greatly help us to keep this service free. Also don't hesitate to tweet "
+"or like this page. Thanks!"
+
+#: /tmp/cache/e2/0a/5bb7f85a6e62e92a8319f166d8e0.php:38
+msgid "leboncoin.remove.success.title"
+msgstr "Removal successful"
+
+#: /tmp/cache/e2/0a/5bb7f85a6e62e92a8319f166d8e0.php:43
+msgid "leboncoin.remove.success.message"
+msgstr ""
+"Your search has been successfully removed, you will stop receiving alerts "
+"about it."
+
+#~ msgid "leboncoin.register.newsletter.registration.label"
+#~ msgstr "Register for infrequent email updates"
+
+#~ msgid "fr"
+#~ msgstr "en"
+
+#~ msgid "leboncoin.register.inter.confirm"
+#~ msgstr "I will!"
