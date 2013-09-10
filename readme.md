@@ -7,7 +7,7 @@ It enabled users to receive email notifications as soon as a new ad correspondin
 
 Install this code on any php compatible web host to use it for yourself
 
-Set set a cron job to run every ten minutes (or whichever update inerval you choose) to call the `/all_searches` URL with `wget` or `curl`
+Set a cron job to run every ten minutes (or whichever update inerval you choose) to call the `/all_searches` URL with `wget` or `curl`
 For example : 
 
     */10 * * * * wget http://lebonmail.local/all_searches
