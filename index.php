@@ -15,6 +15,7 @@ define('DBDATABASE', 'lebonmail');
 define('SMTPHOST', 'smtp.lebonmail.com');
 define('SMTPUSER', 'lebonmail');
 define('SMTPPASSWORD', 'lebonmail');
+define('SMTPPORT', 587);
 
 setlocale(LC_ALL, 'fr_FR.utf8');
 
@@ -256,7 +257,7 @@ function send_message($to, $sub, $mess, $text, $unsub_link)
     $app = Slim::getInstance();
 
 
-    $transport = Swift_SmtpTransport::newInstance(SMTPHOST, 587)
+    $transport = Swift_SmtpTransport::newInstance(SMTPHOST, SMTPPORT)
         ->setUsername(SMTPUSER)
         ->setPassword(SMTPPASSWORD)
     ;
