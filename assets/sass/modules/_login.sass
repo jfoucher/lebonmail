@@ -1,0 +1,205 @@
+$form-color: scale-color(desaturate($base, 15%), $lightness: 91%)
+
+// Login screen
+.login
+  background: url('../images/login/imac.png') 0 0 no-repeat
+  background-size: 940px 778px
+  color: $inverse
+  margin: 20px auto 77px auto
+  padding: 38px 38px 267px
+  position: relative
+  width: 864px
+
+  @media screen and (min-width: $break-med) and (max-width: $break-large)
+    background: url('../images/login/imac.png') 0 0 no-repeat
+    background-size: 700px 579px
+    color: $inverse
+    margin: 20px auto 37px auto
+    padding: 28px 30px 199px 28px
+    position: relative
+    width: 644px
+  @media screen and (max-width: $break-med)
+    width: 100%
+    padding: 0
+    margin: 0
+    background: none
+    background-size: 0 0
+
+.login-screen
+  background-color: $firm
+  padding: 43px 179px 28px 286px
+  height: 402px
+  overflow: hidden
+  position: relative
+  @media screen and (min-width: $break-med) and (max-width: $break-large)
+    height: 282px
+
+  @media screen and (max-width: $break-med)
+    width: 90%
+    padding: 5%
+    margin: 0
+
+.login-icon
+  left: 160px
+  position: absolute
+  top: 43px
+  width: 96px
+  @media screen and (min-width: $break-med) and (max-width: $break-large)
+    left: 20px
+  @media screen and (max-width: $break-med)
+    display: none
+
+  > img
+    display: block
+    margin-bottom: 6px
+    width: 100%
+
+  > h4
+    font-size: 17px
+    font-weight: 200
+    line-height: 34px
+    opacity: .95
+
+    small
+      color: inherit
+      display: block
+      font-size: inherit
+      font-weight: 700
+
+// Login form
+.login-form
+  background-color: $form-color
+  border-radius: 6px
+  padding: 24px 23px 20px
+  position: absolute
+  top: 43px
+  right: 130px
+  width: 375px
+  @media screen and (min-width: $break-med) and (max-width: $break-large)
+    padding: 12px
+    right: 50px
+
+  @media screen and (max-width: $break-med)
+    width: 90%
+    padding: 5%
+    margin: 0
+    position: relative
+    top: 0
+    left: 0
+
+  form
+    margin: 0
+  label
+    color: $gray
+    //margin-left: 0.5em
+    font-size: 1.2em
+  // Ear
+  &:before
+    content: ''
+    border-style: solid
+    border-width: 12px 12px 12px 0
+    border-color: transparent $form-color transparent transparent
+    height: 0px
+    position: absolute
+    left: -12px
+    top: 35px
+    width: 0
+    // Make corners smooth
+    -webkit-transform: rotate(360deg)
+
+  .control-group
+    margin-bottom: 6px
+    position: relative
+    &.error
+      .login-field-icon
+        color: $danger
+
+  .help-block
+    color: $firm
+    @media screen and (min-width: $break-med) and (max-width: $break-large)
+      display: none
+
+  input.login-field
+    border-color: transparent
+    font-size: 17px
+    padding-bottom: 11px
+    padding-top: 11px
+    padding-right: 30px
+    text-indent: 3px
+    width: 329px
+    text-overflow: ellipsis
+    overflow: hidden
+
+    @media screen and (min-width: $break-med) and (max-width: $break-large)
+      padding-bottom: 6px
+      padding-top: 6px
+      padding-left: 6px
+      font-size: 14px
+
+    @media screen and (max-width: $break-med)
+      width: 90%
+      padding: 11px 5%
+      margin: 0
+
+    &:focus
+      & + .login-field-icon
+        color: $firm
+
+
+  .login-field-icon
+    color: scale-color($gray, $lightness: 40%)
+    font-size: 16px
+    position: absolute
+    right: 13px
+    top: 14px
+
+    +transition(.25s)
+    @media screen and (min-width: $break-med) and (max-width: $break-large)
+      top: 6px
+
+  .register-label
+    color: $base
+    display: inline-block
+    font-size: 1.1em
+
+    line-height: 29px
+    margin: 0px 12px 12px 0px
+    overflow: hidden
+
+  .or
+    color: $gray
+  span.or
+    margin-left: 1em
+
+  h3
+    color: $base
+    margin-top: -8px
+  p
+    color: $gray
+    line-height: 1.4em
+
+.login-link
+  color: scale-color($gray, $lightness: 40%)
+  display: block
+  font-size: 13px
+  margin-top: 15px
+  text-align: center
+
+// Serving 2x images
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2)
+  .login
+    background-image: url('../images/login/imac-2x.png')
+
+::-webkit-input-placeholder
+  color: darken($lightgray, 10%)
+
+\:-moz-placeholder
+  color:    darken($lightgray, 10%)
+
+::-moz-placeholder
+  color:    darken($lightgray, 10%)
+
+\:-ms-input-placeholder
+  color:    darken($lightgray, 10%)
+
+
